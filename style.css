@@ -1,0 +1,104 @@
+body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: #818181;
+    background-color: #cecece;
+}
+
+.header {
+    padding: 50px 50px;
+    background-color: #cecece;
+    text-align: center;
+    font-family: Montserrat, sans-serif; 
+}
+
+.navbar {
+    margin-bottom: 0;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: Montserrat, sans-serif;
+    background-color: bisque;
+}
+
+.html {
+    background-color: rgba(96, 0, 160, 0.5);
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    padding: 30px 100px;
+}
+
+.css {
+    background-color: rgba(0, 24, 160, 0.5);
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    padding: 30px 100px;
+}
+
+.javascript {
+    background-color: rgba(144, 160, 0, 0.5);
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    padding: 30px 100px;
+}
+
+.button {
+    position: relative;
+    border: none;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 150px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+  
+.button:after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+  
+.button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+
+.button1 {
+    position: relative;
+    border: none;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 150px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.footer {
+    padding: 15px;
+        text-align: center;
+        color: white;
+        background: rgb(32, 32, 32);
+}
